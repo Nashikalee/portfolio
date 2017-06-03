@@ -1,0 +1,7 @@
+.pcontact{
+	// display: inline-block;
+	vertical-align: middle;
+}
+form textarea{
+	resize: vertical;
+}

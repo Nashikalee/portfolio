@@ -1374,7 +1374,7 @@
 				}
 
 			ul.contact li:hover {
-				top: -5px;
+				// top: -5px;
 			}
 
 				ul.contact li:hover a.fa-facebook {
@@ -1518,6 +1518,7 @@
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
+	form input[type=tel],
 	form select,
 	form textarea {
 		-webkit-appearance: none;
@@ -1530,6 +1531,7 @@
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
 		form input[type="password"]:focus,
+		form input[type=tel]:focus,
 		form select:focus,
 		form textarea:focus {
 			border-color: #a1cd9b;
@@ -1538,6 +1540,7 @@
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
+	form input[type=tel],
 	form select {
 		line-height: 3em;
 		padding: 0 1em;
