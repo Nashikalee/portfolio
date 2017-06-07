@@ -1,4 +1,9 @@
 jQuery(document).ready(function($){
+/***********************************************
+				T I M E L I N E
+***********************************************/
+timeline();
+function timeline(){
 	var timelineBlocks = $('.cd-timeline-block'),
 		offset = 0.8;
 
@@ -25,4 +30,29 @@ jQuery(document).ready(function($){
 			&& $(this).find('.cd-timeline-content').addClass('bounce-content-in');
 		});
 	}
+}
+/***********************************************
+				P E R S O
+***********************************************/
+replaceFormObject();
+function replaceFormObject(){
+	$('#objet').keyup(function(){
+		$('#subject').val("[Portfolio]" + $('#objet').val());
+		console.log("[Portfolio]" + $('#objet').val());
+	});
+}
+
+smoothscroll();
+function smoothscroll(){
+	$('.scrollTo').each(function(){
+		$(this).click(function() { // Au clic sur un element
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Duree de l'animation (en ms)
+			$navHeight = $('nav').height();
+			$('html, body').animate({
+				scrollTop: $(page).offset().top - 2.5*$navHeight
+			}, speed);
+		});
+	});
+}
 });
