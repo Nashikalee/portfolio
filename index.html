@@ -216,11 +216,16 @@
 					<h2 class="major"><span>Contact</span></h2>
 					<form method="post" action="https://formspree.io/demolongeoffrey@gmail.com">
 						<ul>
-							<li><input type="text" name="Objet" placeholder="Objet"></input></li>
-							<li><input type="email" name="email" placeholder="E-mail"></input></li>
-							<li><input type="tel" name="Téléphone" placeholder="Téléphone (facultatif)"></input></li>
+							<li><input type="text" name="Objet" placeholder="Objet" /></li>
+							<li><input type="email" name="_replyto" placeholder="E-mail" /></li>
+							<li><input type="tel" name="Téléphone" placeholder="Téléphone (facultatif)" /></li>
 							<li><textarea name="Message" placeholder="Message"></textarea></li>
-							<li><input type="submit" value="Envoyer"></input></li>
+							<li><input type="submit" value="Envoyer" /></li>
+
+							<input type="hidden" name="_next" value="http://nashikalee.github.io/portfolio/index.html#contact" />
+							<input type="hidden" name="_subject" value="[Portfolio]" />
+							<input type="hidden" name="_format" value="plain" />
+							<input type="text" name="_gotcha" style="display:none" />
 						</ul>
 					</form>
 				</section>
