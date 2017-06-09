@@ -345,7 +345,7 @@
 	}
 
 	.\33 u, .\33 u\24 {
-		width: 25%;
+		width: 33%;
 		clear: none;
 		margin-left: 0;
 	}
@@ -1201,7 +1201,7 @@
 			border-radius: 8px;
 		}
 
-		.image:before {
+		/*.image:before {
 			content: '';
 			position: absolute;
 			left: 0;
@@ -1210,7 +1210,7 @@
 			height: 100%;
 			background: url("images/overlay.png");
 			border-radius: 8px;
-		}
+		}*/
 
 		.image.fit {
 			display: block;

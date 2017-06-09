@@ -19,13 +19,24 @@ form textarea{
 	margin-left: auto;
 	margin-right: auto;
 }
-
+	#parcours #cd-timeline{
+		float: none;
+	}
+	#parcours h3{
+		font-size: 1rem;
+	}
+	#parcours .cd-timeline-content a{
+		text-decoration: none;
+	}
+	#parcours .cd-timeline-content a:hover{
+		text-decoration: underline;
+	}
 /*************************************************************************
 **************************************************************************
 							L  I  S  T  E
 	////////Contact send email
 	////////Smooth scroll
-	Projet
+	////////Projet
 	Adios LoremIpsum
 	Responsive
 **************************************************************************
@@ -112,12 +123,12 @@ form textarea{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+	/*width: 40px;
+	height: 40px;*/
 }
 .cd-timeline-img img {
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 	display: block;
  /* width: 24px;
 	height: 24px;*/
