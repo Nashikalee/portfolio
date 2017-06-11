@@ -14,6 +14,11 @@ form textarea{
 		text-decoration: none;
 	}
 
+#banner-wrapper p{
+	max-width: 1200px;
+	margin: 0 auto 2em auto;
+}
+
 #parcours{
 	max-width: 1200px;
 	margin-left: auto;
@@ -31,14 +36,27 @@ form textarea{
 	#parcours .cd-timeline-content a:hover{
 		text-decoration: underline;
 	}
+#skills ul{
+	max-width: 700px;
+	margin: 0 auto;
+}
+	#skills li{
+		border: 3px #d7e4ed
+		border-radius: 20%;
+		padding: 5px;
+		background: #b1ddab;
+		margin: .5em;
+		color: white;
+	}
 /*************************************************************************
 **************************************************************************
 							L  I  S  T  E
 	////////Contact send email
 	////////Smooth scroll
 	////////Projet
-	Adios LoremIpsum
-	Responsive
+	////////Adios LoremIpsum
+	////////Competences
+	EN
 **************************************************************************
 *************************************************************************/
 #footer .pcontact{
@@ -49,6 +67,12 @@ form textarea{
 		width: inherit;
 		height: inherit;
 	}
+#footer .social a{
+	transition: .5s;
+}
+#footer .social a:hover{
+	opacity: .5;
+}
 
 /**********************
 	T I M E L I N E

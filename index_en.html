@@ -4,12 +4,13 @@
 	<title>Geoffrey Demolon</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/ico" href="images/favicon.ico" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/styles.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
-<body class="homepage">
+<body class="homepage" id="presentation">
 <div id="page-wrapper">
 
 	<!-- Header -->
@@ -17,7 +18,7 @@
 		<div class="logo container">
 			<div>
 				<h1><a href="index.html" id="logo">Geoffrey Demolon</a></h1>
-				<p>IT apprenticeship engineer</p>
+				<p>IT security apprenticeship</p>
 			</div>
 		</div>
 	</header>
@@ -25,10 +26,10 @@
 	<!-- Nav -->
 	<nav id="nav">
 		<ul>
-			<li class="current"><a href="index.html">Home</a></li>
+			<li><a href="#presentation" class="scrollTo">Me</a></li>
 			<li>
-				<a href="#">Dropdown</a>
-				<ul>
+				<a href="#parcours" class="scrollTo">Cursus</a>
+				<!-- <ul>
 					<li><a href="#">Lorem ipsum dolor</a></li>
 					<li><a href="#">Magna phasellus</a></li>
 					<li>
@@ -41,11 +42,11 @@
 						</ul>
 					</li>
 					<li><a href="#">Veroeros feugiat</a></li>
-				</ul>
+				</ul> -->
 			</li>
-			<li><a href="left-sidebar.html">Left Sidebar</a></li>
-			<li><a href="right-sidebar.html">Right Sidebar</a></li>
-			<li><a href="no-sidebar.html">No Sidebar</a></li>
+			<li><a href="#projets" class="scrollTo">Projects</a></li>
+			<li><a href="#skills" class="scrollTo">Skills</a></li>
+			<li><a href="#contact" class="scrollTo">Contact</a></li>
 		</ul>
 		<p class="langue"><a href="index.html">FR</a> / <a href="index_en.html">EN</a></p>
 	</nav>
@@ -54,225 +55,149 @@
 	<div id="banner-wrapper">
 		<section id="banner">
 			 <iframe src="https://drive.google.com/file/d/0B8RREclcnOUCLUF4WmFhX21GdDg/preview" width="700" height="393"></iframe>
-			<p>Apprenti ingénieur depuis septembre 2015 chez Informatique CDC et l'ESIEA, je me spécialise dans la sécurité informatique.</p>
-			<a href="http://www.icdc.caissedesdepots.fr/" class="button" target="_blank">Informatique CDC</a>
+			<p>Apprenticeship engineer since September 2015 at Informatique CDC and ESIEA, I'm specialise in IT security and more particularly in security analyze to become an analyst whithin a CERT.</p>
+			<a href="CV_securite.pdf" class="button" target="_blank">Download my resume</a>
 		</section>
 	</div>
 
 	<!-- Main -->
 	<div id="main-wrapper">
 		<div id="main" class="container">
-			<div class="row 200%">
+			<div id="parcours" class="row 200%">
+			<!-- https://codyhouse.co/gem/vertical-timeline/ -->
 				<section id="cd-timeline">
+					<h2 class="major"><span>Cursus</span></h2>
 					<div class="cd-timeline-block">
 						<div class="cd-timeline-img">
-							<img src="" alt="Picture">
+							<img src="images/student-hat.png" alt="Bac S">
 						</div> <!-- cd-timeline-img -->
 
 						<div class="cd-timeline-content">
-							<h2>Obtention Baccalauréat S</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-							<a href="#0" class="cd-read-more">Read more</a>
-							<span class="cd-date">Juin 2012</span>
+							<h2>Scientific bachelor's degree</h2>
+							<h3>Pierre de Coubertin Highschool 77100 Meaux</h3>
+							<p>Sports study Football</p>
+							<span class="cd-date">June 2012</span>
 						</div> <!-- cd-timeline-content -->
 					</div> <!-- cd-timeline-block -->
 
 					<div class="cd-timeline-block">
 						<div class="cd-timeline-img">
-							<img src="" alt="Picture">
+							<img src="images/reading.png" alt="Licence">
 						</div> <!-- cd-timeline-img -->
 
 						<div class="cd-timeline-content">
-							<h2>Licence Mathématiques et Informatique</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-							<a href="#0" class="cd-read-more">Read more</a>
+							<h2>Maths and IT License</h2>
+							<p>Paris-Est Marne-la-Vallée University</p>
 							<span class="cd-date">2012-2013</span>
 						</div> <!-- cd-timeline-content -->
 					</div>
 					<div class="cd-timeline-block">
 						<div class="cd-timeline-img">
-							<img src="" alt="Picture">
+							<img src="images/student.png" alt="DUT">
 						</div> <!-- cd-timeline-img -->
 
 						<div class="cd-timeline-content">
-							<h2>DUT Métiers du Multimédia et de l'Internet</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-							<a href="#0" class="cd-read-more">Read more</a>
+							<h2>Degree in Multimedia and Web</h2>
+							<p>University of Marne-la-Vallée</p>
 							<span class="cd-date">2013-2015</span>
 						</div> <!-- cd-timeline-content -->
 					</div>
 					<div class="cd-timeline-block">
 						<div class="cd-timeline-img">
-							<img src="" alt="Picture">
+							<img src="images/network.png" alt="ESIEA">
 						</div> <!-- cd-timeline-img -->
 
 						<div class="cd-timeline-content">
-							<h2>Ecole d'ingénieur ESIEA en alternance</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-							<a href="#0" class="cd-read-more">Read more</a>
+							<h2>ESIEA Engineering School in apprenticeship</h2>
+							<p>Apprenticeship at <a href="http://www.icdc.caissedesdepots.fr/" target="_blank">Informatique CDC</a>, subsidiary of <a href="http://www.caissedesdepots.fr/" target="_blank">Caisse des Dépôts et Consignations</a>
+							<!-- <img src="images/logo_cdc.jpg"><img src="images/logo_icdc.jpg"> --></p>
 							<span class="cd-date">2015-2018</span>
 						</div> <!-- cd-timeline-content -->
 					</div>
 				</section>
 			</div>
-		<div class="row 200%">
-			<div class="12u">
-				<!-- Features -->
-					<section class="box features">
-						<h2 class="major"><span>A Major Heading</span></h2>
+
+			<div class="row 200%">
+				<div class="12u">
+					<!-- Features -->
+					<section class="box features" id="projets">
+						<h2 class="major"><span>Projects</span></h2>
 						<div>
 							<div class="row">
 								<div class="3u 12u(mobile)">
-
 									<!-- Feature -->
-										<section class="box feature">
-											<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-											<h3><a href="#">A Subheading</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
-										</section>
-
+									<section class="box feature splunk">
+										<img src="images/logo_splunk.jpg" alt="Splunk logo" class="image featured" />
+										<h3>Log Analyze</h3>
+										<p>
+											Using Splunk, I configure alert and analyze logs to look after the good policy compliance of Informatique CDC information system and to detect potientials attacks coming from whithin the company network or not.
+										</p>
+									</section>
 								</div>
 								<div class="3u 12u(mobile)">
-
 									<!-- Feature -->
-										<section class="box feature">
-											<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-											<h3><a href="#">Another Subheading</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
-										</section>
-
+									<section class="box feature qualys">
+										<img src="images/logo_qualys.jpg" alt="Qualys logo" class="image featured" />
+										<h3>Vulnerability and compliance scanning</h3>
+										<p>
+											Using Qualys, I put up strategies of vulnerability and policy compliance scanning in order to integrate the devices for correcting the vulnerabilities and to keep a compliance of the machines respectful of the security policies.<br />
+											<a href="images/Qualys_certification.pdf" target="_blank">Qualys Certification</a>
+										</p>
+									</section>
 								</div>
 								<div class="3u 12u(mobile)">
-
 									<!-- Feature -->
-										<section class="box feature">
-											<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-											<h3><a href="#">And Another</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
-										</section>
-
-								</div>
-								<div class="3u 12u(mobile)">
-
-									<!-- Feature -->
-										<section class="box feature">
-											<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-											<h3><a href="#">And One More</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
-										</section>
-
+									<section class="box feature ese">
+										<img src="images/logo_ese.png" alt="ESE 2016 logo" class="image featured" />
+										<h3>ESIEA Secure Edition 2016</h3>
+										<p>
+											
+											Organization of a day of conferences and workshops on the subject of computer security. As part of this project, I was the technical manager.<br />
+											<a href="https://ese.esiea.fr/ese/4" target="_blank">https://ese.esiea.fr/ese/4/</a>
+										</p>
+									</section>
 								</div>
 							</div>
-							<div class="row">
+							<!-- <div class="row">
 								<div class="12u">
 									<ul class="actions">
 										<li><a href="#" class="button big">Do Something</a></li>
 										<li><a href="#" class="button alt big">Think About It</a></li>
 									</ul>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</section>
 				</div>
 			</div>
 			<div class="row 200%">
 				<div class="12u">
-					<!-- Blog -->
-					<section class="box blog">
-						<h2 class="major"><span>Another Major Heading</span></h2>
+					<!-- Features -->
+					<section class="box features" id="skills">
+						<h2 class="major"><span>Skills</span></h2>
 						<div>
 							<div class="row">
-								<div class="9u 12u(mobile)">
-									<div class="content content-left">
-
-										<!-- Featured Post -->
-										<article class="box post">
-											<header>
-												<h3><a href="#">Here's a really big heading</a></h3>
-												<p>With a smaller subtitle that attempts to elaborate</p>
-												<ul class="meta">
-													<li class="icon fa-clock-o">15 minutes ago</li>
-													<li class="icon fa-comments"><a href="#">8</a></li>
-												</ul>
-											</header>
-											<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in lectus. Praesent
-												semper mod quis eget mi. Etiam sed ante risus aliquam erat et volutpat. Praesent a
-												dapibus velit. Curabitur sed nisi nunc, accumsan vestibulum lectus. Lorem ipsum
-												dolor sit non aliquet sed, tempor et dolor.  Praesent a dapibus velit. Curabitur
-												accumsan.
-											</p>
-											<a href="#" class="button">Continue Reading</a>
-										</article>
-
-									</div>
-								</div>
-								<div class="3u 12u(mobile)">
-									<div class="sidebar">
-
-										<!-- Archives -->
-										<ul class="divided">
-											<li>
-												<article class="box post-summary">
-													<h3><a href="#">A Subheading</a></h3>
-													<ul class="meta">
-														<li class="icon fa-clock-o">6 hours ago</li>
-														<li class="icon fa-comments"><a href="#">34</a></li>
-													</ul>
-												</article>
-											</li>
-											<li>
-												<article class="box post-summary">
-													<h3><a href="#">Another Subheading</a></h3>
-													<ul class="meta">
-														<li class="icon fa-clock-o">9 hours ago</li>
-														<li class="icon fa-comments"><a href="#">27</a></li>
-													</ul>
-												</article>
-											</li>
-											<li>
-												<article class="box post-summary">
-													<h3><a href="#">And Another</a></h3>
-													<ul class="meta">
-														<li class="icon fa-clock-o">Yesterday</li>
-														<li class="icon fa-comments"><a href="#">184</a></li>
-													</ul>
-												</article>
-											</li>
-											<li>
-												<article class="box post-summary">
-													<h3><a href="#">And Another</a></h3>
-													<ul class="meta">
-														<li class="icon fa-clock-o">2 days ago</li>
-														<li class="icon fa-comments"><a href="#">286</a></li>
-													</ul>
-												</article>
-											</li>
-											<li>
-												<article class="box post-summary">
-													<h3><a href="#">And One More</a></h3>
-													<ul class="meta">
-														<li class="icon fa-clock-o">3 days ago</li>
-														<li class="icon fa-comments"><a href="#">8,086</a></li>
-													</ul>
-												</article>
-											</li>
-										</ul>
-										<a href="#" class="button alt">Browse Archives</a>
-									</div>
+								<div class="12u">
+									<ul class="actions">
+										<li>Network security</li><!--
+										--><li>CEHv9</li><!--
+										--><li>Log analyze</li><!--
+										--><li>Splunk</li><!--
+										--><li>Qualys</li><!--
+										--><li>Network administrator</li><!--
+										--><li>Python</li><!--
+										--><li>C</li><!--
+										--><li>Linux</li><!--
+										--><li>Windows</li><!--
+										--><li>Cryptography</li><!--
+										--><li>Java</li><!--
+										--><li>Javascript</li><!--
+										--><li>Java</li><!--
+										--><li>Curious</li><!--
+										--><li>Kind</li><!--
+										--><li>Rigorous</li><!--
+										--><li>Lucid</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -287,12 +212,14 @@
 		<div class="row 200%">
 			<div class="12u">
 				<!-- About -->
-					<section>
-						<h2 class="major"><span>What's this about?</span></h2>
+					<section id="contact">
+						<h2 class="major"><span>About</span></h2>
 						<ul class="contact">
-							<li class="pcontact"><img height="100" src="images/logo_esiea.png"></li>
+							<li class="pcontact"><a href="https://www.esiea.fr/" target="_blank"><img height="100" src="images/logo_esiea.png"></a></li>
 							<li class="pcontact"><img height="100" src="images/logo_cfaite.png"></li>
-							<li class="pcontact"><img height="50" src="images/logo_idf.png"></li>
+							<li class="pcontact"><img height="50" src="images/logo_idf.png"></li><br/>
+							<li class="pcontact"><a href="http://www.caissedesdepots.fr/" target="_blank"><img height="130" src="images/logo_cdc.png"></a></li>
+							<li class="pcontact"><a href="http://www.icdc.caissedesdepots.fr/" target="_blank"><img height="100" src="images/logo_icdc.png"></a></li>
 						</ul>
 					</section>
 
@@ -300,27 +227,31 @@
 		</div>
 		<div class="row 200%">
 			<div class="12u">
-
 				<!-- Contact -->
-					<section>
-						<h2 class="major"><span>Get in touch</span></h2>
-						<form method="post" action="mailto:demolon@et.esiea.fr?subject=[Portfolio]" enctype="text/plain">
-							<ul>
-								<li><input type="text" placeholder="Objet"></input></li>
-								<li><input type="email" placeholder="E-mail"></input></li>
-								<li><input type="tel" placeholder="Téléphone (facultatif)"></input></li>
-								<li><textarea placeholder="Message"></textarea></li>
-								<li><input type="submit" value="Envoyer"></input></li>
-							</ul>
-						</form>
-					</section>
+				<section>
+					<h2 class="major"><span>Contact</span></h2>
+					<form method="post" action="https://formspree.io/demolongeoffrey@gmail.com">
+						<ul>
+							<li><input type="text" name="Objet" placeholder="Objet" id="objet" /></li>
+							<li><input type="email" name="_replyto" placeholder="E-mail" /></li>
+							<li><input type="tel" name="Téléphone" placeholder="Téléphone (facultatif)" /></li>
+							<li><textarea name="Message" placeholder="Message"></textarea></li>
+							<li><input type="submit" value="Envoyer" /></li>
+						</ul>
+						<input type="hidden" name="_next" value="http://nashikalee.github.io/portfolio/index.html#contact" />
+						<input type="hidden" name="_subject" value="[Portfolio]" id="subject" />
+						<input type="hidden" name="_format" value="plain" />
+						<input type="text" name="_gotcha" style="display:none" />
+					</form>
+					<p class="social"><a href="https://www.linkedin.com/in/geoffrey-demolon-5133b9a9/" target="_blank"><img src="images/logo_linkedin.png"></a></p>
+				</section>
 			</div>
 		</div>
 
 		<!-- Copyright -->
 			<div id="copyright">
 				<ul class="menu">
-					<li>&copy;Geoffrey Demolon. All rights reserved</li>
+					<li>&copy; 2017 Geoffrey Demolon</li>
 				</ul>
 			</div>
 	</footer>
